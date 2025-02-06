@@ -1,0 +1,1 @@
+export { DetailProductPage as default } from '@/features/tables/pages/detail-product-page'

@@ -9,6 +9,8 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({
     children
 }) => {
     return (
-        <DashboardContainer>{children}</DashboardContainer>
+        <DashboardContainer>
+            {children}
+        </DashboardContainer>
     )
 }

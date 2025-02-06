@@ -9,8 +9,10 @@ export const PageContainer: React.FC<PageContainerProps> = ({
     className,
     ...props
 }) => {
-    return <main className={`${className}`}>
-        <h1 className="py-4 text-xl">{props.title}</h1>
+    return (
+        <main className={`${className}`}>
+            <h1 className="py-4 text-xl">{props.title}</h1>
             {children}
-    </main>;
-};
+        </main>
+    )
+}
