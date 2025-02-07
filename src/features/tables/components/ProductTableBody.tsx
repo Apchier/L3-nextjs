@@ -15,7 +15,7 @@ export const ProductTableBody = () => {
                     <TableCell>{product.description}</TableCell>
                     <TableCell className="text-right">{product.price}</TableCell>
                     <TableCell className="text-center">
-                        <Link href={`/dashboard/tables/awsd/edit`}>
+                        <Link href={`/dashboard/tables/${product.id}/edit`}>
                             <Button variant="outline" size="sm">
                                 Detail
                             </Button>
